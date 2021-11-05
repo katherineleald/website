@@ -1,0 +1,162 @@
+.header {
+	margin: 0px;
+	padding: 0px;
+}
+
+#header {
+	margin: auto;
+	width: 100%;
+	height: auto;
+}
+
+#logo {
+	display: block;
+	margin: auto;
+	filter: drop-shadow(3px 3px 1.5px #000);
+}
+
+#header ul {
+	list-style: none;
+	font-family: 'Handlee', cursive;
+	font-weight: bold; 
+}
+
+.nav li a {
+	display: block;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px #000000;
+	font-size: 26px;
+	background-color: #FFFFFF;
+	color: #000;
+}
+
+.nav li a:hover {
+	background-color: #000000;
+	color: #ffffff;
+}
+
+.nav > li {
+	float: left;
+	text-align:center;
+	width: 33%;
+}
+.nav li ul {
+	display: none;
+	position: absolute;
+}
+
+.nav li:hover > ul {
+	display: block;
+	width: 25%;
+}
+
+#contenedor {
+	border-radius: 25px;
+	border: solid 3px #000;
+
+	width: auto;
+	height: auto;
+	
+	margin: 5% 1.5% 1.5%;
+	padding: 15px;
+	
+	text-align: center;
+	box-shadow: 5px 5px 5px #000000;
+	background-color: #FFFFFF;
+	}
+
+#contenedor h1 {
+	font-family: 'Leckerli One', cursive;
+	text-shadow: 1px 1px 1px #000000;
+	font-size: 34px;
+}
+
+#contenedor h2 {
+	font-family: 'Handlee', cursive;
+	font-weight: bold; 
+	text-shadow: 1px 1px 1px #000000;
+	font-size: 30px;
+	margin-top: -1.85%; 
+}
+
+#contenedor_principal{
+	width:auto;
+	height:auto;
+	position:relative;
+	margin: auto;
+}
+
+.contenedor_imagen_texto{
+	width:380px;
+	height:auto;
+	margin-top: 1%; margin-bottom: 1%;
+	position:relative;
+	display:inline-block;
+	vertical-align:top;
+	overflow:hidden;
+}
+
+.imagen, .texto, .precio{
+	width:100%;
+	height:auto;
+	position:relative;
+	display:inline-block;
+}
+
+.imagen1mujer img, .imagen2mujer img, .imagen3mujer img {
+	border-radius: 25px;
+	border: solid 3px #ec008c;
+	box-shadow: 3px 3px 3px #000000;
+}
+.imagen4mujer img, .imagen5mujer img, .imagen6mujer img {
+	border-radius: 25px;
+	border: solid 3px #fc6767;
+	box-shadow: 3px 3px 3px #000000;
+}
+.imagen1hombre img, .imagen2hombre img, .imagen3hombre img {
+	border-radius: 25px;
+	border: solid 3px #43cea2;
+	box-shadow: 3px 3px 3px #000000;
+}
+.imagen4hombre img, .imagen5hombre img, .imagen6hombre img {
+	border-radius: 25px;
+	border: solid 3px #185a9d;
+	box-shadow: 3px 3px 3px #000000;
+}
+.imagen1niños img, .imagen2niños img, .imagen3niños img {
+	border-radius: 25px;
+	border: solid 3px #FDFC47;
+	box-shadow: 3px 3px 3px #000000;
+}
+.imagen4niños img, .imagen5niños img, .imagen6niños img {
+	border-radius: 25px;
+	border: solid 3px #24FE41;
+	box-shadow: 3px 3px 3px #000000;
+}
+
+.texto, .texto2{
+	height:auto;
+	font-family: 'Handlee', cursive;
+	font-weight: bold; 
+	text-shadow: 1px 1px 1px #000000;
+	font-size: 20px;
+	text-align:center;
+	text-decoration: none;
+}
+
+.texto {
+	margin-top: 0.8%;
+}
+.texto2 {
+	margin-top: -1%;
+}
+
+.precio {
+	height:auto;
+	font-family: 'Bebas Neue', cursive;
+	text-shadow: 1px 1px 1px #000000;
+	font-size: 30px;
+	margin-top: 0.8%;
+	text-align:center;
+	text-decoration: none;
+}
